@@ -1,0 +1,82 @@
+/*estilos a las etiquetas en html*/
+*{
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    /*min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+    background: linear-gradient( 60deg, #C64885, #FAEA7B);
+
+
+}
+
+   
+h1 {
+    color: beige;
+
+}
+
+p {
+    color:#611524;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Chela One', cursive;
+font-size:18px;
+
+}
+form{
+    background-color: rgba(212, 188, 235, 0.2);
+    border: 10px solid rgb(71, 15, 71);
+    /*espacio  con los elementos de afuera*/
+    margin: 20px  200px  ;
+        /*espacio  con los elementos internos*/
+
+    padding: 20px;
+    
+
+    
+}
+/*Agregando fuentes*/
+label{
+    font-family: 'Architects Daughter', cursive;
+
+}
+/*estilos para id(unicos en el html)*/ 
+
+
+#seccion-formulario{
+    font-size: 18px;
+}
+
+/*estilos a las clases en html, se pueden repetir las clasese en los elementos para qtengan el mismo estilo*/
+.ciencia{
+    background-color: rgba(21, 21, 1, 40%);
+
+
+}
+.cuentos{
+    background-color:rgb(69, 22, 73, 0.2);
+    text-align: center;
+}
+
+.cuentos img{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.img-centro{
+    text-align: center;
+
+}
+
+/*estilos con condiciones especificas*/
+input[type="text"]{
+    background-color: darkmagenta;
+
+}
+
+img{
+    border-radius: 20px;
+}
